@@ -1,0 +1,144 @@
+@font-face {
+  font-family: 'Nautilus Pompilius';
+  src: local('Nautilus Pompilius'), local('NautilusPompilius'), url('nautiluspompilius.woff2') format('woff2'), url('nautiluspompilius.woff') format('woff'), url('nautiluspompilius.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+header{
+  margin: auto;
+  height:70%;
+  background-image: url('../bacgr11.jpg'); border-radius: 15px;
+  background-size: cover;
+  border: 10px;
+  border-color: cyan; 
+  border-style: solid;  
+    padding: 20px;
+    text-align: center; color: cyan; 
+    font-weight: bolder; 
+    text-shadow: MediumBlue 7px 7px 7px;
+    }
+h1{
+      text-align: center; color: cyan; font-weight: 
+    bolder; text-shadow: MediumBlue 7px 7px 7px;
+    } 
+nav {
+    text-align: end; color: cyan;
+          }
+a{
+  padding: 10px 10px;/* отступы от букв до краев */
+  /* text-decoration: none; убирает подчеркивание */
+  color: 	White;
+  }
+main{
+    position: relative;
+    background-image: url('../fon2.jpg'); border-radius: 15px;
+    background-size: cover;
+    background-color: #cccccc;
+    border: 10px;
+    border-top: 0px solid;
+    border-bottom: 0px solid;
+    border-color: cyan; 
+    border-style: solid;
+    padding: 20px;
+   text-align: center; color: MediumBlue;
+   text-shadow: cyan 5px 5px 5px;}
+  
+footer{ 
+  height: auto;   
+  background-color: cyan; 
+  border-radius: 15px;	
+  padding: 10px;
+  text-align: center; color: MediumBlue;}
+  
+.container_slider_css{
+        margin:5px auto;
+    width: 95%;
+    height:100%; 
+    overflow:hidden; position:relative}
+.photo_slider_css{
+    text-align: end; color: MediumBlue;
+    position:absolute; animation:round 32s infinite; 
+    opacity:0;
+    width:100%;
+    height:100%;
+  }
+@keyframes round {
+  25%{opacity:1}
+  40%{opacity:0}
+  }
+  img:nth-child(1){animation-delay: 28s}
+  img:nth-child(2){animation-delay: 24s}
+  img:nth-child(3){animation-delay: 20s}
+  img:nth-child(4){animation-delay: 16s}
+  img:nth-child(5){animation-delay: 12s}
+  img:nth-child(6){animation-delay: 8s}
+  img:nth-child(7){animation-delay: 4s}
+  img:nth-child(8){animation-delay: 0s}
+
+
+@media(min-width:0px) and (max-width:90%) {
+  .container_slider_css{width:90%; height:100%}
+  }
+@media(min-width:0px) and (max-width:90%) {
+  .container_slider_css{width:90%;height:100%}
+  }
+   
+.users{
+display: flex;
+padding: 10px;
+text-align: center;
+}
+.user{
+margin: 10px;
+padding: 5px;
+background-color: cyan;
+border-radius: 15px;
+width: 20%;
+text-align: center; font-weight: bolder;
+}
+
+.users_1{
+  display: flex;
+  flex-direction: column;
+padding: 10px;
+text-align: center;
+  }
+.user_1{
+margin: 10px;
+padding: 10px;
+background-color: cyan;
+border-radius: 15px;
+width: auto;;
+text-align: justify; font-weight: bolder;
+    }
+
+img{
+    display: block;  
+width: 120px;
+border-radius: 15px;
+margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+input{
+  margin: 5px;
+}
+
+  
+
+.container_section-4{
+  margin:5px auto;
+  /*width: 95%; */
+  height:100%;
+
+  background-image: url('../fon33.jpg'); border-radius: 15px;
+  background-size: cover;
+  border: 10px;
+  
+  text-align: center; color: cyan; font-weight: 
+  bolder; text-shadow: rgb(30, 30, 31) 7px 7px 7px;
+}
+
+		
